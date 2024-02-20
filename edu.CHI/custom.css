@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+header{
+    background-color: aliceblue;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: bisque;
+}
+
+img{
+    height: 10%;
+    width: 10%;
+    display: flex;	
+}
+
+.imgscroll{
+    height: 20%;
+    width: 20%;
+    align-items: center;
+    display: flex;
+}
+
+main{
+    text-align: center;  
+}
+
+.colorboton{
+    color: black;
+    background-color: black;
+}
+
+
+.carousel-control-prev-icon{
+	color: black;
+}
+
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 3rem;
+    margin-left: 15rem;
+}
+
+.container{
+    display: flex;
+}
+
+
+.card{
+    position: relative;
+    left: 0px;
+    align-items: center;
+    height: 60%;
+    width: 20%;
+    margin-top: 15rem;
+}
+
+.card:not(:first-child){
+    margin-left: -50px;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card:hover ~ .card {
+    left: 50px;
+} 
+
+
+
